@@ -1,0 +1,16 @@
+{
+  "scripts": {
+  "start": "live-server src",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "lint": "eslint .",
+  "build": "babel src -d dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.4"
+  },
+  "dependencies": {
+    "core-js": "^3.38.1"
+  }
+}
